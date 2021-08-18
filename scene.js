@@ -22,7 +22,7 @@ function createScene() {
     //mirror.reflectionFresnelParameters.bias = 1.02;
 	mirror.position = new BABYLON.Vector3(0, -2, 0);
 
-    const music = new BABYLON.Sound("tetris", "./fatrat.mp3", scene, null,
+    const music = new BABYLON.Sound("song", "./isak-solbakken-flowering-7443.mp3", scene, null,
     {
         loop: true,
         autoplay: true,
